@@ -1,0 +1,92 @@
+.heading{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    background-color: #007f4f;
+    font-size: 30px;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+    animation:head 4s ease infinite; 
+    
+}
+@keyframes head{
+    25%{tranform:rotateZ(30deg);}   50%{tranform:rotateZ(30deg);}   75%{tranform:rotateZ(30deg);} 
+}
+.nav{
+    
+    background-color:#007f4f;
+    padding:10px;
+    text-align:center;
+    margin: 0px;
+}
+a{
+    font-family: 'Merienda', cursive;
+    color:whitesmoke;
+    margin-right:4vw;
+}
+a:hover{
+    color:black;
+}
+.img1{
+    
+    position: relative;
+    
+    width:100%;
+    height:auto;
+    margin:0px;
+}
+
+.content{
+    position: relative;
+    
+    font-size: 15px;
+    padding: 10px;
+    line-height: 30px;
+    
+}
+h2{
+    text-align: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin:0px 5px;
+  font-family: 'Merienda', cursive;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+    text-align: center;
+    background-color: #007f4f;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    }
+p{
+    font-family: 'Courgette', cursive;
+    margin:0px 10px;
+    line-height:25px;
+}
+
+ol li{
+    font-family: 'Merienda', cursive;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #007f4f; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
